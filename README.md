@@ -1,4 +1,4 @@
-# KDEConnect-commands
+# KDE Connect-commands
 This repository contains a list of commands to be used in KDE Connect.<br>
 This list is a compilation of many sources that I found in internet, including KDE User Base Wiki and Reddit.<br>
 

@@ -49,7 +49,7 @@ To contribute to KDEConnect-commands, follow these steps:
 Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## Maintainer & Contributors
-I"m am the only one! Help me! :)
+I'm am the only one here! Help me! :)
 
 * [@guinuxbr](https://github.com/guinuxbr)
 

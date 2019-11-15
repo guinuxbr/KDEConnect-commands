@@ -30,7 +30,7 @@ Unlock keyboard and mouse:<br>
 ```pkill pyxtrlock```
 
 ## Volume control.
-If you are running Plasma
+If you are running Plasma<br>
 Volume down:<br>
 ```qdbus org.kde.kglobalaccel /component/kmix invokeShortcut "decrease_volume"```
 

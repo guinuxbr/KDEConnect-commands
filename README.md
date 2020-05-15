@@ -1,4 +1,5 @@
 # KDEConnect-commands
+[Click here](https://github.com/guinuxbr/KDEConnect-commands/blob/master/commands.md) to see the commands.
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/guinuxbr/KDEConnect-commands)
 ![GitHub contributors](https://img.shields.io/github/contributors/guinuxbr/KDEConnect-commands)
@@ -58,5 +59,3 @@ If you want to contact me you can send an email to guinuxbr@gmail.com.
 
 ## License
 This project uses the following license: [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.html).
-
-[Click here](https://github.com/guinuxbr/KDEConnect-commands/blob/master/commands.md) to see the commands.

@@ -5,7 +5,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/guinuxbr/KDEConnect-commands)
 ![GitHub stars](https://img.shields.io/github/stars/guinuxbr/KDEConnect-commands)
 ![GitHub forks](https://img.shields.io/github/forks/guinuxbr/KDEConnect-commands)
-![Twitter Follow](https://img.shields.io/twitter/follow/gllmarques?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/guinuxbr?style=social)
 
 Here is my `KDEConnect-commands` that allows to control your Plasma Desktop from your Android phone. It uses [KDEConnect](https://community.kde.org/KDEConnect) that is capable to do some really cool stuff. In fact, you can do almost anything like send files from and to phone, control slideshow presentation, control multimedia application, remote input and the ability to run commands directly in your Linux box.<br>
 

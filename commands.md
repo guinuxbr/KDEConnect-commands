@@ -32,4 +32,4 @@ Name | Command
 ------------ | -------------
 screenshot | spectacle -b
 screenshot to phone | file=/tmp/$(hostname)_$(date "+%Y%m%d_%H%M%S").png; spectacle -bo "${file}" && kdeconnect-cli -d $(kdeconnect-cli -a --id-only) --share ${file}
-webcam to phone | file="$HOME/Images/WebcamImage_$(date "+%Y%m%d_%H%M%S").jpg"; ffmpeg -f video4linux2 -s 1280x720 -i /dev/video0 -ss 0:0:2 -frames 1 "${file}" && kdeconnect-cli -d $(kdeconnect-cli -a --id-only) --share "${file}"
+webcam to phone | file="$HOME/Pictures/WebcamImage_$(date "+%Y%m%d_%H%M%S").jpg"; ffmpeg -f video4linux2 -input_format mjpeg -s 1280x720 -i /dev/video0 -frames:v 1 "${file}" && kdeconnect-cli -d $(kdeconnect-cli -a --id-only) --share "${file}"

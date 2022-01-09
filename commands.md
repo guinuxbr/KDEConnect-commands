@@ -10,8 +10,6 @@ lock screen | loginctl lock-session
 unlock screen | loginctl unlock-session
 turn off screen | xset dpms force off
 turn on screen | xset dpms force on
-lock keyboard and mouse (not the screen) | pyxtrlock
-Unlock keyboard and mouse | pkill pyxtrlock
 
 ## Volume control.
 Name | Command 

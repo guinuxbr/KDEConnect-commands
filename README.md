@@ -27,17 +27,17 @@ sudo pacman -S kdeconnect
 
 The package have some optional dependencies (in Arch Linux) that you should install to be able to use the respective feature in KDE Connect.
 
-* sshfs: remote filesystem browser
-* kde-cli-tools: configuration UI
-* qt5-declarative: QML bindings
-* python-nautilus: Nautilus integration
+- **sshfs**: remote filesystem browser
+- **kde-cli-tools**: configuration UI
+- **qt5-declarative**: QML bindings
+- **python-nautilus**: Nautilus integration
 
 ## Using KDEConnect-commands
 
 To use KDEConnect-commands, follow these steps:
 
-* Access KDE `System Settings` > `KDE Connect`.
-* Choose your device on the list and then `Run commands`
+- Access KDE `System Settings` > `KDE Connect`.
+- Choose your device on the list and then `Run commands`
 
 In the window that shows up you should give a smart name and copy the command line at the column "Command".
 Press "OK" and you are done.
@@ -56,11 +56,18 @@ To contribute to KDEConnect-commands, follow these steps:
 
 Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## Maintainer & Contributors
+## Maintainer
 
 I'm the only one here! Help me! 🙂
 
-* [@guinuxbr](https://github.com/guinuxbr)
+- [@guinuxbr](https://github.com/guinuxbr)
+
+## Contributors
+
+But there are cool contributors:
+
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
 
 ## Contact
 

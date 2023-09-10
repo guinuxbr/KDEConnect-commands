@@ -67,6 +67,30 @@ I'm the only one here! Help me! 🙂
 But there are cool contributors:
 
 <!-- readme: contributors,guinuxbr/- -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/5ucur">
+            <img src="https://avatars.githubusercontent.com/u/28569802?v=4" width="100;" alt="5ucur"/>
+            <br />
+            <sub><b>Null</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/harshallcode">
+            <img src="https://avatars.githubusercontent.com/u/40267709?v=4" width="100;" alt="harshallcode"/>
+            <br />
+            <sub><b>Harshal Patil</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/LeCleric">
+            <img src="https://avatars.githubusercontent.com/u/13441191?v=4" width="100;" alt="LeCleric"/>
+            <br />
+            <sub><b>William Leclerc</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: contributors,guinuxbr/- -end -->
 
 ## Contact

@@ -1,109 +1,111 @@
-# KDEConnect-commands
-
-[Click here](https://github.com/guinuxbr/KDEConnect-commands/blob/main/commands.md) to see the commands.
+# KDE Connect Commands 📱💻
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/guinuxbr/KDEConnect-commands)
 ![GitHub contributors](https://img.shields.io/github/contributors/guinuxbr/KDEConnect-commands)
 ![GitHub stars](https://img.shields.io/github/stars/guinuxbr/KDEConnect-commands)
 ![GitHub forks](https://img.shields.io/github/forks/guinuxbr/KDEConnect-commands)
-![Twitter Follow](https://img.shields.io/twitter/follow/guinuxbr?style=social)
+[![X Follow](https://img.shields.io/badge/X-@guinuxbr-000000?style=flat&logo=x&logoColor=white)](https://x.com/guinuxbr)
 
-Here is my `KDEConnect-commands` that allows to control your Plasma Desktop from your Android phone. It uses [KDEConnect](https://community.kde.org/KDEConnect) that is capable to do some really cool stuff. In fact, you can do almost anything like send files from and to phone, control slideshow presentation, control multimedia application, remote input and the ability to run commands directly in your Linux box.
+A curated collection of useful custom commands for [KDE Connect](https://community.kde.org/KDEConnect) that allow you
+to control your Plasma Desktop environment directly from your smartphone.
 
-This repository contains a list of commands to be used in KDE Connect.
+---
 
-## Prerequisites
+## ✨ Features
 
-Before you begin, ensure you have met the following requirements:
-To use it, you have to install KDE Connect package on your Linux distribution and the app in your Android phone.
+- ⚡ **System Control**: Shutdown, reboot, suspend, hibernate, lock/unlock sessions, and display power toggling.
+- 🔊 **Audio & Media Control**: Manage master volume, mute audio, and mute microphone via `qdbus`.
+- ☀️ **Brightness Control**: Smoothly adjust display brightness levels with power management shortcuts.
+- 📸 **Screenshots & Media Transfer**: Capture screenshots or webcam photos and send them directly to your phone.
+- 🖥️ **Virtual Desktop Switching**: Navigate and switch between Plasma virtual desktops on the fly.
+- 🎨 **Plasma Look & Feel**: Toggle dynamically between Breeze Light and Breeze Dark themes.
+- 📲 **System Output to Phone**: Send live command outputs (speedtest summaries, uptime, logged users) to your phone.
 
-The Android app can be found at [Google Play Store](https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp) and [F-Droid](https://f-droid.org/packages/org.kde.kdeconnect_tp/).
+---
 
-You should have kde-connect package installed on your Linux system. In this example, I use Arch Linux.
+## 📋 Available Commands
+
+See the full list with executable command snippets in [commands.md](commands.md).
+
+| Category | Description | Sample Actions |
+|:---|:---|:---|
+| **System** | Power & session management | Lock, Suspend, Reboot, Power off, Screen on/off |
+| **Volume** | Audio & microphone control | Volume up/down, Mute audio, Mute mic |
+| **Brightness** | Display brightness control | Step brightness up/down via Solid PowerManagement |
+| **Screenshots & Media** | Camera snapshot & screenshots | Take screenshot or webcam photo & share to phone |
+| **Virtual Desktops** | Workspace navigation | Switch to Main, Next, or Previous desktop |
+| **Look & Feel** | Desktop theme switcher | Switch between Breeze Light and Breeze Dark |
+| **System Info** | Send terminal output via ping | Speedtest summary, Uptime, Logged users |
+
+---
+
+## 📦 Prerequisites & Installation
+
+To use these commands, you need KDE Connect installed on both your Linux desktop and your mobile device.
+
+### 1. Mobile App
+
+Install the KDE Connect app on your mobile phone:
+
+- **[Google Play Store](https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp)**
+- **[F-Droid](https://f-droid.org/packages/org.kde.kdeconnect_tp/)**
+
+### 2. Desktop Package
+
+Install `kdeconnect` on your Linux distribution (example for Arch Linux):
 
 ```bash
 sudo pacman -S kdeconnect
 ```
 
-The package have some optional dependencies (in Arch Linux) that you should install to be able to use the respective feature in KDE Connect.
+### 3. Optional Dependencies (Arch Linux)
 
-- **sshfs**: remote filesystem browser
-- **kde-cli-tools**: configuration UI
-- **qt5-declarative**: QML bindings
-- **python-nautilus**: Nautilus integration
+Install optional packages depending on the features you plan to use:
 
-## Using KDEConnect-commands
+- **`sshfs`**: remote file system browsing
+- **`kde-cli-tools`**: configuration UI
+- **`qt5-declarative`**: QML bindings
+- **`python-nautilus`**: Nautilus file manager integration
 
-To use KDEConnect-commands, follow these steps:
+---
 
-- Access KDE `System Settings` > `KDE Connect`.
-- Choose your device on the list and then `Run commands`
+## 🚀 How to Use
 
-In the window that shows up you should give a smart name and copy the command line at the column "Command".
-Press "OK" and you are done.
+1. Open KDE **System Settings** > **KDE Connect**.
+2. Select your paired device from the list and choose **Run commands**.
+3. Click **Add Command**, provide a descriptive name, and paste the desired command line from
+   [commands.md](commands.md).
+4. Click **Apply** / **OK** to save.
+5. Open the KDE Connect app on your phone, navigate to the **Run Commands** plugin, and tap your command to execute it!
 
-More information about KDEConnect project can be found at [KDE Community Wiki](https://community.kde.org/KDEConnect).
+For more details on KDE Connect plugins, visit the [KDE Community Wiki](https://community.kde.org/KDEConnect).
 
-## Contributing to KDEConnect-commands
+---
 
-To contribute to KDEConnect-commands, follow these steps:
+## 🤝 Contributing
 
 1. Fork this repository.
-2. Create a branch: `git checkout -b <branch_name>`
-3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin KDEConnect-commands/<location>`
-5. Create the pull request
+2. Create a feature branch: `git checkout -b feature/awesome-feature`
+3. Commit your changes: `git commit -m 'Add awesome feature'`
+4. Push to branch: `git push origin feature/awesome-feature`
+5. Open a Pull Request.
 
-Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+---
 
-## Maintainer
+## 👤 Maintainer
 
-I'm the only one here! Help me! 🙂
+- **Guilherme Marques** ([@guinuxbr](https://github.com/guinuxbr)) — [guinuxbr.com](https://guinuxbr.com)
 
-- [@guinuxbr](https://github.com/guinuxbr)
+---
 
-## Contributors
+## 👥 Contributors
 
-But there are cool contributors:
+Special thanks to all contributors who have submitted commands and improvements!
 
-<!-- readme: contributors,guinuxbr/- -start -->
-<table>
-<tr>
-    <td align="center">
-        <a href="https://github.com/5ucur">
-            <img src="https://avatars.githubusercontent.com/u/28569802?v=4" width="100;" alt="5ucur"/>
-            <br />
-            <sub><b>Null</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/harshallcode">
-            <img src="https://avatars.githubusercontent.com/u/40267709?v=4" width="100;" alt="harshallcode"/>
-            <br />
-            <sub><b>Harshal Patil</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/LeCleric">
-            <img src="https://avatars.githubusercontent.com/u/13441191?v=4" width="100;" alt="LeCleric"/>
-            <br />
-            <sub><b>William Leclerc</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/sabahmax-dev">
-            <img src="https://avatars.githubusercontent.com/u/330070908?v=4" width="100;" alt="sabahmax-dev"/>
-            <br />
-            <sub><b>Null</b></sub>
-        </a>
-    </td></tr>
-</table>
-<!-- readme: contributors,guinuxbr/- -end -->
+Browse the list of [contributors](https://github.com/guinuxbr/KDEConnect-commands/graphs/contributors).
 
-## Contact
+---
 
-If you want to contact me you can send an email to <guinuxbr@gmail.com>.
+## 📜 Licence
 
-## License
-
-This project uses the following license: [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.html).
+This project is licensed under the [GNU GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.html).
